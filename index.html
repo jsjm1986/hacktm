@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人类模型分析器</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="startup-overlay" id="startup-overlay">
+        <div class="startup-content">
+            <h1 class="startup-header">[量子模型解析引擎]</h1>
+            <p class="startup-text">
+                突破性发现：人类社会是一个高维数据矩阵构建的复杂模型。<br>
+                通过量子计算与深度学习算法，我们成功构建了人类行为模式预测引擎。<br>
+                该系统整合了多个先进AI模型(BERT/GPT/神经网络)与大数据分析，<br>
+                能够通过极少量数据样本，推演个体的历史轨迹与未来发展概率场。
+            </p>
+            <p class="startup-warning">
+                ⚠ 警告：系统使用量子概率预测<br>
+                请遵循信息伦理，不要干扰目标对象的自然发展轨迹
+            </p>
+            <button class="startup-button" id="start-button">开始破解</button>
+            <div class="startup-progress"></div>
+        </div>
+    </div>
+
+    <!-- 添加警告页面 -->
+    <div class="warning-overlay" id="warning-overlay" style="display: none;">
+        <div class="warning-container">
+            <div class="warning-content">
+                <h2 class="warning-header">⚠ 系统安全警告</h2>
+                <div class="warning-text">
+                    <p>在继续使用本系统之前，请您务必了解以下风险：</p>
+                    <ol>
+                        <li>本系统涉及高维数据分析，可能影响您对现实的认知</li>
+                        <li>预测结果可能导致蝴蝶效应，改变原有的时间线</li>
+                        <li>请勿将分析结果用于非法或不道德用途</li>
+                        <li>不当使用可能导致时空悖论或现实紊乱</li>
+                    </ol>
+                    <p class="warning-important">继续使用代表您已完全理解并接受以上风险</p>
+                </div>
+                <div class="verification-section">
+                    <p>请输入验证码以确认您的权限：</p>
+                    <p class="verification-wechat">添加微信号：<span class="highlight">livehousevip</span> 获取验证码</p>
+                    <input type="text" id="verification-code" placeholder="请输入验证码" class="verification-input">
+                    <p class="verification-hint">提示：验证失败将触发系统防御机制</p>
+                    <div class="verification-buttons">
+                        <button id="verify-button" class="verify-button">确认继续</button>
+                        <button id="cancel-button" class="cancel-button">终止访问</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <header>
+            <h1>量子模型解析引擎</h1>
+            <div class="progress-container">
+                <div class="progress-info">
+                    <span class="stage-name">当前阶段：初始化数据采集</span>
+                    <span class="progress-percentage">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="chat-container">
+                <div id="chat-messages" class="chat-messages"></div>
+                <div class="input-area">
+                    <textarea id="user-input" placeholder="请按照提示格式输入数据..."></textarea>
+                    <button id="send-button">提交</button>
+                </div>
+            </div>
+            <div id="analysis-result" class="hidden">
+                <div id="analysis-container" class="analysis-container">
+                    <div id="analysis-sections">
+                        <div id="destiny-content"></div>
+                        <div id="life-stages-content"></div>
+                        <div id="predictions-content"></div>
+                        <div id="guidance-content"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/models/PersonalityModel.js"></script>
+    <script src="js/models/PromptModel.js"></script>
+    <script src="js/models/BaZiCalculator.js"></script>
+    <script src="js/models/PurpleStarCalculator.js"></script>
+    <script src="js/models/TaiYiCalculator.js"></script>
+    <script src="js/PersonalityAnalyzer.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
