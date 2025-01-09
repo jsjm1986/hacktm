@@ -378,8 +378,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 { id: 'init', name: '[生物特征识别] 基因数据解析...', percentage: 0 },
                 { id: 'bazi', name: '[时空数据分析] 四维时序映射...', percentage: 0 },
                 { id: 'ziwei', name: '[天体物理计算] 星体轨道追踪...', percentage: 0 },
-                { id: 'taiyi', name: '[深度学习模型] GPT-4数据训练...', percentage: 0 },
-                { id: 'destiny', name: '[神经网络分析] 概率矩阵计算...', percentage: 0 },
+                { id: 'taiyi', name: '[深度学习模型] 人类数据模型预测...', percentage: 0 },
+                { id: 'destiny', name: '[神经网络分析] 概率矩阵网络计算...', percentage: 0 },
                 { id: 'guidance', name: '[量子运算处理] 平行宇宙模拟...', percentage: 0 }
             ];
 
@@ -490,6 +490,7 @@ ${JSON.stringify(userData, null, 2)}
 1. 性格特征（100字以内）
 2. 最适合的发展方向（50字以内）
 3. 人生重要转折点（最多列出3个）
+4. 你说我们是通过破解世界模型得出的结论
 
 注意：
 - 使用大众能理解的语言
